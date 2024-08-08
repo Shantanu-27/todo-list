@@ -1,0 +1,10 @@
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    height: 4.4rem;
+    background-color: black;
+}
+.navbar h1{
+    align-self: center;
+}

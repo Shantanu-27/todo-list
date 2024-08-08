@@ -1,0 +1,63 @@
+.task-item {
+  margin: 2rem 3rem;
+  border: 1px solid black;
+  padding: 0rem 1rem;
+  border-radius: 8px;
+  background-color: white;
+}
+.task-item.done {
+  background: #dff0d8;
+  text-decoration: line-through;
+}
+
+.task-item h2 {
+    margin: 0;
+    padding: 1rem 1rem;
+}
+.task-item h2:hover {
+    cursor: pointer;
+}
+.task-item p {
+    margin: 0.5rem 0 0;
+}
+
+.task-item button {
+    margin-right:2rem;
+    margin-top: 1rem;
+    margin-bottom:1rem;
+    height: 2.4rem;
+    width: 4rem;
+    border:2px solid black ;
+    border-radius: 16px;
+    color: white;
+    background-color:black;
+}
+.task-item button:hover{
+    cursor: pointer;
+}
+
+.task-item button:hover {
+    cursor: pointer;
+    background-color: rgb(44, 42, 42);
+}
+.task-item .editbox{
+    display: flex;
+    justify-content:start;
+}
+.task-item .editbox input{
+    height: 4rem;
+    width: 12rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+.task-item .editbox textarea{
+    height:4rem;
+    width:16rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    resize: none;
+}
+.task-item .editbox button{
+    align-self: center;
+}
+
